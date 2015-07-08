@@ -1,0 +1,24 @@
+{
+  "name": "afterest/easyconverter",
+  "description": "",
+  "keywords": [],
+  "homepage": "http://yandex.ru",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey",
+      "email": "scabo.dev@gmail.com",
+      "homepage": "http://afterest.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {"Afterest\\": "src/Afterest"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Afterest\\": "tests/Afterest"}
+  }
+}
